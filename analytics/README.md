@@ -1,5 +1,5 @@
 # Onshape Enterprise Analytics 
-This guide aims to provide a general guideline of conducting research analysis to the design process in Onshape with the Enterprise Analytics. Specifically, this guide will primarily focus on using the [audit trails](https://cad.onshape.com/help/Content/audit_reports.htm?tocpath=Enterprise%7CAccessing%20Analytics%7C_____2). Visit the official Onshape help center [here](https://cad.onshape.com/help/Content/EnterpriseHelp/Content/reports.htm?tocpath=Enterprise%7CAccessing%20Analytics%7C_____0) for more information on other features of Enterprise Analytics. 
+This guide aims to provide a general guideline of conducting research analysis to the design process in Onshape with the Enterprise Analytics. Specifically, this guide will primarily focus on using the [audit trails](https://cad.onshape.com/help/Content/audit_reports.htm?tocpath=Enterprise%7CAccessing%20Analytics%7C_____2). Visit the official Onshape help center [here](https://cad.onshape.com/help/Content/EnterpriseHelp/Content/reports.htm?tocpath=Enterprise%7CAccessing%20Analytics%7C_____0) for more information on other features of Enterprise Analytics. Before getting started with this guide, you should know the basics of Onshape [documents](https://cad.onshape.com/help/Content/introduction.htm?tocpath=Welcome%20to%20Onshape%20Help%7COnshape%20Documents%7C_____0) and [tabs](https://cad.onshape.com/help/Content/elementtabs.htm?tocpath=Welcome%20to%20Onshape%20Help%7COnshape%20Documents%7C_____1). 
 
 Please also note that the Analytics portal is only available and accessible in an Onshape Enterprise account with granted access by the Enterprise administrator. 
 
@@ -22,7 +22,7 @@ There are several general notes for researchers and teachers to keep in mind whe
 As mentioned in the previous section, it is recommended to create the empty or prepared Onshape documents for the participants before actually conducting the experiment. When setting up these documents and also designing your experiments in general, there are some tips to be considered: 
 - It is always good practice to organize all the files for one set of study in one folder and/or project for easy file management and sharing. This allows easier data filtering for the next section. Specifically, as an administrator of the Enterprise account, you may find [this page](https://cad.onshape.com/help/Content/onshape_classroom.htm?tocpath=EDU%C2%A0Enterprise%7C_____1) to be helpful for medium- to large-scale experiments. 
 - Learn about the filtering options available for the audit trails and think about if your design of experiment allows efficient filtering for experimental data. 
-- If applicable, you may want to come up with some naming conventions for the names of the tabs, and ask the participants not to change them, for efficient analysis after the experiment. 
+- If applicable, you may want to come up with some naming conventions for the names of the tabs and documents, and ask the participants not to change them, for efficient analysis after the experiment. 
 - After the experiment is finished, you may want to unshare the documents to the participants. Such that, no more changes can be made to the documents, and you can avoid the risk of having the documents being accidentally deleted by the participants. 
 
 ## 3. Data preparation 
@@ -48,9 +48,15 @@ For all audit trails downloaded from the Enterprise Analytics portal in CSV form
     - If you ever need to convert the CSV file to Excel, be careful with the timestamp when you try to convert the Excel sheet back to CSV format. You may lose the seconds of the timestamp and may cause programming errors when reading datetime data format. 
 3. `Document`: the name of the Onshape document in its current form. 
 4. `Tab`: the name of the tab that the action was recorded in. 
-    - You may not be able to tell if the tab is a Part Studio or an Assembly by the name of the tab. Advising/Enforing a naming convention may be beneficial for your research analysis. 
-    - Some general actions may have `Tab` to be as `N/A`. E.g., "Close document". 
+    - You may not be able to tell if the tab is a Part Studio or an Assembly by the name of the tab, unless you track all the name change to the tabs from the beginning. Advising/Enforing a naming convention may be beneficial for your research analysis. 
+    - Some general actions may have `Tab` to be as `N/A` (e.g., "Close document"). 
 5. `User`: the email address of the user that committed this action. 
     - For anonymizing purpose mentioned in step 5 of the previous section, you may also want to anonymize all the email addresses in the audit trails. 
 6. `Description`: the description of the committed actions. 
 
+To go through this large quantity of data entries, some general methods are: 
+- Categorize all actions into a few categories for aggregate analysis/comparison 
+- Focus on the timing, sequence, and/or transition of a few (design) behaviour types (e.g., browse between tabs, delete features)
+- Combine the analysis of analytics data and other external research tools (e.g., eye/mouse tracking, screen recording)
+
+Some open-sourced research methodology that uses the Onshape Enterprise Analytics can be found in [this page](https://github.com/PTC-Education/Onshape-Research-Guide/tree/main/analysis/methodology). 
