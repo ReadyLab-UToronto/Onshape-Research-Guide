@@ -59,4 +59,4 @@ To go through this large quantity of data entries, some general methods are:
 - Focus on the timing, sequence, and/or transition of a few (design) behaviour types (e.g., browse between tabs, delete features)
 - Combine the analysis of analytics data and other external research tools (e.g., eye/mouse tracking, screen recording)
 
-Some open-sourced research methodology that uses the Onshape Enterprise Analytics can be found in [this page](https://github.com/PTC-Education/Onshape-Research-Guide/tree/main/analysis/methodology). 
+Some open-sourced research methodology that uses the Onshape Enterprise Analytics can be found in [this page](https://github.com/PTC-Education/Onshape-Research-Guide/tree/main/analytics/methodology). 
