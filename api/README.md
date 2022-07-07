@@ -192,3 +192,4 @@ Note a few things from this example:
 All API calls have been automatically generated with the method stored in [this repository](https://github.com/PTC-Education/Python-OpenAPI). The API calls are structured in the form of code snippets in Jupyter notebook, which provides greater flexibility with documentation. However, the generator may not be routinely updated with the most current version of the API specification. Also, it should be noted that this repository is only tested with some of the more popular API endpoints, and it may run into errors for edge cases. 
 
 ## 5. Sample projects 
+For some sample projects that utilize the Onshape REST API for research and/or analysis, please visit [this page](https://github.com/PTC-Education/Onshape-Research-Guide/tree/main/api/sample) for more information. 
