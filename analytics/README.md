@@ -1,5 +1,5 @@
 # Onshape Enterprise Analytics 
-This guide aims to provide a general guideline of conducting research analysis to the design process in Onshape with the Enterprise Analytics. Specifically, this guide will primarily focus on using the [audit trails](https://cad.onshape.com/help/Content/audit_reports.htm?tocpath=Enterprise%7CAccessing%20Analytics%7C_____2). Visit the official Onshape help center [here](https://cad.onshape.com/help/Content/EnterpriseHelp/Content/reports.htm?tocpath=Enterprise%7CAccessing%20Analytics%7C_____0) for more information on other features of Enterprise Analytics. Before getting started with this guide, you should know the basics of Onshape [documents](https://cad.onshape.com/help/Content/introduction.htm?tocpath=Welcome%20to%20Onshape%20Help%7COnshape%20Documents%7C_____0) and [tabs](https://cad.onshape.com/help/Content/elementtabs.htm?tocpath=Welcome%20to%20Onshape%20Help%7COnshape%20Documents%7C_____1). 
+This guide aims to provide a general guideline of conducting research analysis to the design **process** in Onshape with the Enterprise Analytics. Specifically, this guide will primarily focus on using the [audit trails](https://cad.onshape.com/help/Content/audit_reports.htm?tocpath=Enterprise%7CAccessing%20Analytics%7C_____2). Visit the official Onshape help center [here](https://cad.onshape.com/help/Content/EnterpriseHelp/Content/reports.htm?tocpath=Enterprise%7CAccessing%20Analytics%7C_____0) for more information on other features of Enterprise Analytics. Before getting started with this guide, you should know the basics of Onshape [documents](https://cad.onshape.com/help/Content/introduction.htm?tocpath=Welcome%20to%20Onshape%20Help%7COnshape%20Documents%7C_____0) and [tabs](https://cad.onshape.com/help/Content/elementtabs.htm?tocpath=Welcome%20to%20Onshape%20Help%7COnshape%20Documents%7C_____1). 
 
 Please also note that the Analytics portal is only available and accessible in an Onshape Enterprise account with granted access by the Enterprise administrator. 
 
@@ -8,6 +8,7 @@ Please also note that the Analytics portal is only available and accessible in a
 - [2. Onshape environment set up](#2-onshape-environment-set-up)
 - [3. Data preparation](#3-data-preparation)
 - [4. Data analysis](#4-data-analysis)
+- [5. Sample methodologies](#5-sample-methodologies)
 
 ## 1. Introduction 
 Audit trail is one of the many features in the Onshape Enterprise Analytics portal. It is essentially a list of actions that were committed by the users in documents within the Enterprise account. These actions are recorded automatically as users access and make edits in documents, and the data entries are presented in a chronological order. 
@@ -59,4 +60,5 @@ To go through this large quantity of data entries, some general methods are:
 - Focus on the timing, sequence, and/or transition of a few (design) behaviour types (e.g., browse between tabs, delete features)
 - Combine the analysis of analytics data and other external research tools (e.g., eye/mouse tracking, screen recording)
 
-Some open-sourced research methodology that uses the Onshape Enterprise Analytics can be found in [this page](https://github.com/PTC-Education/Onshape-Research-Guide/tree/main/analytics/methodology). 
+## 5. Sample methodologies
+Some open-sourced research methodologies that use the Onshape Enterprise Analytics can be found in [this page](/analytics/methodology/README.md). 

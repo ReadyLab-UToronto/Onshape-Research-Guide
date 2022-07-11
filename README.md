@@ -42,15 +42,4 @@
             <b>The REST API provides efficient access to the design <i>product</i>.</b> <br></br>
         </div>
     </div>
-    <div class="container">
-        <h2>
-            <a href="https://github.com/PTC-Education/Onshape-Research-Guide/tree/main/ui_integration"><img src="resources/Systems Integration.svg" width="100px" alt=""/>External Integration</a>
-        </h2>
-        <div>
-            With the <a href='https://onshape-public.github.io/docs/oauth/'>OAuth authorization framework</a>, one can integrate a locally launched web application to the native Onshape user interface. Being able to access and interact with information inside the Onshape document may enable a greater potential of using Onshape for teaching engineering science concepts to a class of students. For example, a teacher may build a simple analysis tool with basic Python scripts that can be launched as a side panel in Onshape, which enables instant analysis (e.g., kinematics, mass, volume) of the CAD model. 
-        </div>
-        <div>
-            <b>External integration to the Onshape user interface allows more <i>interaction</i> with the design.</b> <br><br>
-        </div>
-    </div>
 </section>
