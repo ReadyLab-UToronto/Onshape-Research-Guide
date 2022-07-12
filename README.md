@@ -1,10 +1,13 @@
 # Onshape Research Guide
 <section class="section">
     <div class="container">
-        <div>
-            <img src='resources/ptc_edu_logo.png' width=40% alt=''/> 
-            <img src='resources/onshape_logo.svg' width=40% alt=''/>
-            <img src='resources/readylab_logo.png' width=40% alt=''/> 
+        <div style="text-align: center">
+            <a href='https://www.ptc.com/education'><img src='resources/ptc_edu_logo.png' width=40% alt=''/></a>
+            &nbsp &nbsp &nbsp &nbsp &nbsp
+            <a href='https://www.onshape.com/'><img src='resources/onshape_logo.svg' width=40% alt=''/></a> 
+        </div>
+        <div style="text-align: center">
+            <a href='https://readylab.mie.utoronto.ca'><img src='resources/readylab_logo.png' width=40% alt=''/></a>
         </div>
         <div>
             <a href='https://www.onshape.com/en/'>Onshape</a> is the only Software-as-a-Service (SaaS) product development platform that combines CAD, built-in PDM, real-time collaboration tools, and business analytics. The unique architecture of the software provides a great potential for academic research and teaching in engineering, including but not limited to the following topics: 
