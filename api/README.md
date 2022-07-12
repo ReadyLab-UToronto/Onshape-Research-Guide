@@ -1,14 +1,13 @@
 # Onshape REST API
 This guide provides a brief introduction to the Onshape REST API and its potential applications in research and teaching. For learn about the basics of the Onshape REST API, visit the official [Onshape Developer Documentation](https://onshape-public.github.io) for more information. 
 
-Specifically, resources detailed in this guide are written in Python with Jupyter notebooks, hosted on Google Colab. It is recommended to use the same programming environment for practice and learning. For other programming languages, please see [this GitHub repository](https://github.com/onshape-public/onshape-clients).
-
 ## Table of contents 
 - [1. Introduction](#1-introduction)
 - [2. Applications](#2-applications)
     - [2.1. Design analysis](#21-design-analysis)
     - [2.2. Engineering analysis](#22-engineering-analysis)
-    - [2.3. Teaching with increased interaction](#23-teaching-with-increased-interaction)
+    - [2.3. Computer science research](#23-computer-science-research)
+    - [2.4. Teaching with increased interaction](#24-teaching-with-increased-interaction)
 - [3. Sample projects](#3-sample-projects)
 
 ## 1. Introduction
@@ -47,7 +46,15 @@ Again, the aid of one or more custom feature(s) using the Onshape FeatureScript,
 3. Make changes to the model using one or more `POST` API endpoint or try to retrieve information using the same `GET` endpoint(s) that you used above but with different configurations queried. Test if the changes in values that you are getting with the method tested in the previous step make sense. 
 4. With the above tested, you can now repeat this process algorithmically to conduct your analysis. 
 
-### 2.3. Teaching with increased interaction
+### 2.3. Computer science research 
+As the REST API enables the modelling and study of a large amount of CAD models in Onshape, there is a great potential for machine learning research that involves big data. Some sample directions include: 
+- Study of the geometry (e.g., sketches) and the relationship between parts and features (e.g., mates in assemblies)
+- Automatic categorization of shape and structure of CAD models 
+- Automatic generation of sketches, parts, and models 
+
+More research publication related to this category can be found in [this page](https://ptc-education.github.io/docs/thought-leadership/publications). 
+
+### 2.4. Teaching with increased interaction
 While the ability to visualize abstract math and science concepts is often one of the main struggling points for students. Building and interacting with computer-simulated models in Onshape may provide a great tool for educators to improve students' learning experience. For instance, here are a few potential pathways: 
 - While making `POST` requests to an Onshape model, the CAD model is actually being modified in real time. In other words, making consecutive `POST` API requests to a CAD model can essentially simulate the motion of the mechanism/structure while the code runs in the background. 
 - Through performing CAD-based virtual experiments, students can interact with, or even design on their own, models that visualize and simulate the abstract concepts. Then, applying the learned concepts to the models may allow the students to gain a better sense of how the concept may affect the physical world. 

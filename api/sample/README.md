@@ -1,11 +1,31 @@
 # Sample Projects Using the Onshape REST API
+Most resources presented in this guide are written in Python with Jupyter notebooks, hosted on Google Colab. It is recommended to use the same programming environment for practice and learning. For other programming languages, please see [this GitHub repository](https://github.com/onshape-public/onshape-clients).
 
 <section class="section">
     <div class="container">
         <table>
             <thead>
                 <tr>
-                    <th colspan="2">Projects on Math and Engineering Science Concepts</th>
+                    <th colspan="2">Design Analysis</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        To be added 
+                    </td>
+                    <td>
+                        To be added 
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Engineering Analysis</th>
                 </tr>
             </thead>
             <tbody>
@@ -27,10 +47,10 @@
                 </tr>
                 <tr>
                     <td>
-                        <a href="https://github.com/PTC-Education/Four-Bar-Mechanism/blob/main/Four_Bar.ipynb"><img src="Four Bar API.png" width="100%" alt="" /></a>
+                        <a href="https://github.com/PTC-Education/Four-Bar-Mechanism"><img src="Four Bar.gif" width="100%" alt="" /></a>
                     </td>
                     <td>
-                        <b>Four-bar mechanism</b> is one of the basic but popular topic in the traditional mechanical engineering cirriculum. Specifically, varying the lengths of different linkages in the mechanism creates different motion paths for the input and output links. Making REST API calls enables simulation of the motion and kinematic analysis of the mechanism. <a href='https://github.com/PTC-Education/Four-Bar-Mechanism/blob/main/Four_Bar.ipynb'>Click here to learn more about the project. </a>
+                        <b>Four-bar mechanism</b> is one of the basic but popular topic in the traditional mechanical engineering cirriculum. Specifically, varying the lengths of different linkages in the mechanism creates different motion paths for the input and output links. Making REST API calls enables simulation of the motion and kinematic analysis of the mechanism. <a href='https://github.com/PTC-Education/Four-Bar-Mechanism'>Click here to learn more about the project. </a>
                     </td>
                 </tr>
                 <tr>
