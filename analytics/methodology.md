@@ -11,7 +11,7 @@
             <tbody>
                 <tr>
                     <td>
-                        <img src="MUCAD-CLF.png" width="100%" alt="" />
+                        <img src="../resources/analytics_mucad_clf.png" width="100%" alt="" />
                     </td>
                     <td>
                         The <b>Multi-User Computer-Aided Design Collaborative Learning Framework (MUCAD-CLF)</b> provides two classification methods to categorize CAD actions into a few categories for aggregate analysis and comparison. Click <a href='https://doi.org/10.1016/j.aei.2021.101446'>here</a> to read about the paper and <a href='https://github.com/ReadyLab-UToronto/MUCAD-CLF'>here</a> for the open-sourced code.<br></br>
@@ -23,3 +23,4 @@
             </tbody>
         </table>
     </div>
+</section>

@@ -62,4 +62,4 @@ While the ability to visualize abstract math and science concepts is often one o
 In some scenarios, teachers may even benefit from building a simple local web application that can be integrated to the native Onshape user interface through OAuth. Such that, students can open the analysis tool as a side panel or a different tab in their Onshape documents. Visit the official [Onshape Developer Documentation](https://onshape-public.github.io) for more information on OAuth integration. 
 
 ## 3. Sample projects 
-For some sample projects that utilize the Onshape REST API for research and/or teaching, please visit [this page](/api/sample/README.md) for more information. 
+For some sample projects that utilize the Onshape REST API for research and/or teaching, please visit [this page](/api/samples.md) for more information. 

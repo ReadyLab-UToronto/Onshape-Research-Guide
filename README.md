@@ -2,6 +2,11 @@
 <section class="section">
     <div class="container">
         <div>
+            <img src='resources/ptc_edu_logo.png' width=40% alt=''/> 
+            <img src='resources/onshape_logo.svg' width=40% alt=''/>
+            <img src='resources/readylab_logo.png' width=40% alt=''/> 
+        </div>
+        <div>
             <a href='https://www.onshape.com/en/'>Onshape</a> is the only Software-as-a-Service (SaaS) product development platform that combines CAD, built-in PDM, real-time collaboration tools, and business analytics. The unique architecture of the software provides a great potential for academic research and teaching in engineering, including but not limited to the following topics: 
         </div>
         <ul>
@@ -22,7 +27,7 @@
     </div>
     <div class="container">
         <h2>
-            <a href="https://github.com/PTC-Education/Onshape-Research-Guide/tree/main/analytics"><img src="resources/Data Process.svg" width="100px" alt=""/>Enterprise Analytics</a>
+            <a href="https://github.com/PTC-Education/Onshape-Research-Guide/tree/main/analytics"><img src="resources/data_process.svg" width="100px" alt=""/>Enterprise Analytics</a>
         </h2>
         <div>
             Every Onshape Enterprise account automatically comes with the <a href="https://cad.onshape.com/help/Content/EnterpriseHelp/Content/reports.htm?tocpath=Enterprise%7CAccessing%20Analytics%7C_____0">Analytics portal</a>. As users make edits and commit actions in an Onshape document, the history of these user behaviour is automatically logged in a chronological order. Researchers and teachers can build <a href='https://cad.onshape.com/help/Content/my_analytics.htm?tocpath=Enterprise%7CAccessing%20Analytics%7C_____1'>dashboards</a> to gain an overview of the enterprise. Through exporting the action history in the form of an <a href="https://cad.onshape.com/help/Content/audit_reports.htm?tocpath=Enterprise%7CAccessing%20Analytics%7C_____2">audit trail</a>, one can study these logged actions by essentially rebuilding the design process for research analysis.
@@ -33,7 +38,7 @@
     </div>
     <div class="container">
         <h2>
-            <a href="https://github.com/PTC-Education/Onshape-Research-Guide/tree/main/api"><img src="resources/Database Application.svg" width="100px" alt=""/>REST API</a>
+            <a href="https://github.com/PTC-Education/Onshape-Research-Guide/tree/main/api"><img src="resources/database_application.svg" width="100px" alt=""/>REST API</a>
         </h2>
         <div>
             Onshape uses <a href="https://onshape-public.github.io/docs/apioverview/">REST APIs</a> to communicate with third party systems. With a library of API endpoints available on <a href="https://cad.onshape.com/glassworks/explorer/#/">Glassworks</a>, one can easily retrieve information from and make updates to an Onshape document. Further, establishing computational workflows with API calls allow scalable research analysis to a large amount of documents and data. Some applications of the REST API include: design analysis of the feature tree of the product, engineering analysis with CAD models, machine learning with CAD geometries, etc.

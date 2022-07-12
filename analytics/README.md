@@ -61,4 +61,4 @@ To go through this large quantity of data entries, some general methods are:
 - Combine the analysis of analytics data and other external research tools (e.g., eye/mouse tracking, screen recording)
 
 ## 5. Sample methodologies
-Some open-sourced research methodologies that use the Onshape Enterprise Analytics can be found in [this page](/analytics/methodology/README.md). 
+Some open-sourced research methodologies that use the Onshape Enterprise Analytics can be found in [this page](/analytics/methodology.md). 
