@@ -1,6 +1,9 @@
 # Repository of Research Methodologies for Onshape Enterprise Analytics
 
 <section class="section">
+    <div>
+        We are in the process of developing a series of examples leveraging Onshape Enterprise Analytics in research applications. These will be published during August 2022. <br></br>
+    </div>
     <div class="container">
         <table>
             <thead>

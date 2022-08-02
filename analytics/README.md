@@ -20,39 +20,40 @@ There are several general notes for researchers and teachers to keep in mind whe
     - Ask the participants to wait a few seconds after finish designing in the Onshape document and go back to the home page of their account (click the enterprise logo at the top left corner of the webpage) instead of closing the webpage directly. 
 
 ## 2. Onshape environment set up 
-As mentioned in the previous section, it is recommended to create the empty or prepared Onshape documents for the participants before actually conducting the experiment. When setting up these documents and also designing your experiments in general, there are some tips to be considered: 
-- It is always good practice to organize all the files for one set of study in one folder and/or project for easy file management and sharing. This allows easier data filtering for the next section. Specifically, as an administrator of the Enterprise account, you may find [this page](https://cad.onshape.com/help/Content/onshape_classroom.htm?tocpath=EDU%C2%A0Enterprise%7C_____1) to be helpful for medium- to large-scale experiments. 
+As mentioned in the previous section, it is recommended to create the empty or prepared Onshape documents for the participants before actually conducting the experiment. When setting up these documents, and designing your experiments in general, there are some tips to be considered: 
+- It is always good practice to organize all the files for one set of study documents in one folder and/or project for easy file management and sharing. This allows easier data filtering during data preparation. 
+- For more details on setting up and using Onshape in educational settings as an administrator of an Enterprise account, you can visit [this page](https://cad.onshape.com/help/Content/onshape_classroom.htm?tocpath=EDU%C2%A0Enterprise%7C_____1) of the Onshape help center. This information is also useful in setting up medium- to large-scale experiments. 
 - Learn about the filtering options available for the audit trails and think about if your design of experiment allows efficient filtering for experimental data. 
 - If applicable, you may want to come up with some naming conventions for the names of the tabs and documents, and ask the participants not to change them, for efficient analysis after the experiment. 
-- After the experiment is finished, you may want to unshare the documents to the participants. Such that, no more changes can be made to the documents, and you can avoid the risk of having the documents being accidentally deleted by the participants. 
+- After the experiment is finished, you may want to unshare the documents with the participants so that no more changes can be made to the documents and you can avoid the risk of having the documents being accidentally deleted by the participants. 
 
 ## 3. Data preparation 
 To retrieve the experimental data from the Onshape Enterprise Analytics portal, there are some general steps that you may want to follow: 
-1. First make sure you have the correct permission, enabled by your Enterprise administrator, to access the analytics for all users in the account. For more information, please refer to [this page](https://cad.onshape.com/help/Content/EnterpriseHelp/Content/global_permissions.htm?tocpath=Enterprise%7CGetting%20Started%20as%20an%20Enterprise%20Administrator%7C_____2).
+1. First, make sure you have the correct permission, enabled by your Enterprise administrator, to access the analytics for all users in the account. For more information, please refer to [this page](https://cad.onshape.com/help/Content/EnterpriseHelp/Content/global_permissions.htm?tocpath=Enterprise%7CGetting%20Started%20as%20an%20Enterprise%20Administrator%7C_____2).
 2. Access "Analytics" at the top bar of the webpage of your Analytics account. Under "All" $\rightarrow$ "Audit" on the left panel, access "Audit Trail". 
 3. On the Audit Trail page, use all the filtering options available on the page to filter data. Generally, one audit trail should serve as one data point in your research dataset. As an example, you may want to download one audit trail per document to analyze behaviours for different design teams, or you may want to download one audit trail per user to analyze individual behaviours in a (collaborative) design process. 
-4. When downloading the audit trail, please follow this step carefully. Otherwise, the audit trail that you download may only contain a maximum of 500 entries. 
-    - Hover your mouse on top of the analytics table entries 
+4. When downloading the audit trail, the default option is to only download a maximum of 500 entries. To download all entries:  
+    - Hover your mouse on top of the analytics table entries.
     - There should be three dots appearing right next to the top of the "Description" column. When you hover your mouse on the three dots, it should say "Tile actions", but NOT "Dashboard actions". 
-    - Click "Download data", and it is recommended to download the data in CSV format. 
+    - Click "Download data". It is recommended to download the data in CSV format. 
     - Under the "Advanced data options" drop-down list, select "All results" for the "Number of rows to include". Otherwise, you will only get a maximum of 500 row entries for the downloaded dataset. 
-    - Once you click download, it may take a while, depending on the size of your dataset. It is recommended to double check your filters and a few entries from the Analytics portal to make sure they are indeed what you want to specify before you click Download due to the large volumn of data. 
+    - Once you click "Download", it may take a while, depending on the size of your dataset. It is recommended to double check your filters and a few entries from the Analytics portal to make sure they are indeed what you want to specify before you download due to the large volumn of data. 
 5. Once you download an audit trail, it will be named as "Audit Trail Dashboard.csv" by default. Before downloading more audit trails, you should come up with a naming convention for all the audit trail files. 
-    - Preferably, you should name these files (and even the users' name in the audit trails) with a randomly generated naming scheme and store the codex in a separate file. Such that, the identities of all the participants are anonymized during the design process to eliminate potential bias. 
+    - Preferably, you should name these files (and even the users' name in the audit trails) with a randomly generated naming scheme and store the codex in a separate file. This way, the identities of all the participants can be anonymized during the analysis to eliminate potential bias. 
 6. Please note that all the audit trails can be sensitive human-subject experimental data, and they should be stored securely. 
 
 ## 4. Data analysis 
-For all audit trails downloaded from the Enterprise Analytics portal in CSV format, they should have six columns. The content in each column should be self-explanatory, but here are some notes to pay attention to: 
+All audit trails downloaded from the Enterprise Analytics portal in CSV format should have six columns. The content in each column should be self-explanatory, but here are some notes to pay attention to: 
 1. Column 1 is an index column with no column title. 
 2. `Time`: the timestamp of the action in the format of `YYYY-MM-DD HH:MM:SS`. 
     - All timestamps are recorded in the Universal Coordinated Time (UTC) to avoid conflicts with timezone difference between collaborators in the same document. 
     - If you ever need to convert the CSV file to Excel, be careful with the timestamp when you try to convert the Excel sheet back to CSV format. You may lose the seconds of the timestamp and may cause programming errors when reading datetime data format. 
 3. `Document`: the name of the Onshape document in its current form. 
 4. `Tab`: the name of the tab that the action was recorded in. 
-    - You may not be able to tell if the tab is a Part Studio or an Assembly by the name of the tab, unless you track all the name change to the tabs from the beginning. Advising/Enforing a naming convention may be beneficial for your research analysis. 
+    - You may not be able to tell if the tab is a Part Studio or an Assembly by the name of the tab, unless you track all the name changes to the tabs from the beginning. Advising/enforing a tab naming convention for your participants may be beneficial for your research analysis. 
     - Some general actions may have `Tab` to be as `N/A` (e.g., "Close document"). 
 5. `User`: the email address of the user that committed this action. 
-    - For anonymizing purpose mentioned in step 5 of the previous section, you may also want to anonymize all the email addresses in the audit trails. 
+    - For anonymizing purpose mentioned in step 5 of the previous section, you may also want to anonymize all the email addresses in the audit trails (e.g., by using the 'Find and Replace' functionality). 
 6. `Description`: the description of the committed actions. 
 
 To go through this large quantity of data entries, some general methods are: 

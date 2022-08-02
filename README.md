@@ -10,7 +10,7 @@
             <a href='https://readylab.mie.utoronto.ca'><img src='resources/readylab_logo.png' width=40% alt=''/></a>
         </div>
         <div>
-            <a href='https://www.onshape.com/en/'>Onshape</a> is the only Software-as-a-Service (SaaS) product development platform that combines CAD, built-in PDM, real-time collaboration tools, and business analytics. The unique architecture of the software provides a great potential for academic research and teaching in engineering, including but not limited to the following topics: 
+            <a href='https://www.onshape.com/en/'>Onshape</a> is the only Software-as-a-Service (SaaS) product development platform that combines CAD, built-in PDM, real-time collaboration tools, and business analytics. The unique architecture of the software has great potential in academic research and teaching in engineering, including but not limited to the following topics: 
         </div>
         <ul>
             <li>Research in individual design behaviour </li>
@@ -19,7 +19,7 @@
             <li>Teaching engineering science concepts with interactive models </li>
         </ul>
         <div>
-            With its SaaS architecture, Onshape enables both unintrusive data collection and efficient data access, perfectly scalable for large-scale experiments and studies. This Onshape Research Guide aims to provide an introduction to some of the most popular sources of data in Onshape that may support academic research and teaching along with a few sample projects and analysis methods. If you would like to open-source your research method and/or sample project that relates to Onshape and want to be featured in this guide, please submit a pull request to <a href="https://github.com/PTC-Education/Onshape-Research-Guide">this GitHub repository</a> with details of the method/project. <br></br>
+            With its SaaS architecture, Onshape enables both unintrusive data collection and efficient data access, perfectly scalable for large-scale experiments and studies. This Onshape Research Guide aims to provide an introduction to some of the most popular sources of data in Onshape that may support academic research and teaching, along with a few sample projects and analysis methods. If you would like to open-source your research method and/or sample project that relates to Onshape and want to be featured in this guide, please submit a pull request to <a href="https://github.com/PTC-Education/Onshape-Research-Guide">this GitHub repository</a> with details of the method/project. <br></br>
         </div>
         <div>
             This guide was initially built in collaboration between <a href='https://www.ptc.com/en/education'>PTC Education</a> and the <a href='https://readylab.mie.utoronto.ca'>Ready Lab</a> at the University of Toronto. For all publications that are benefited by this guide, please cite this repository.<br></br>

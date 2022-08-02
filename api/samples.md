@@ -1,4 +1,6 @@
 # Sample Projects Using the Onshape REST API
+We are in the process of expanding on our series of examples leveraging the Onshape REST API in research applications. These will be published during August 2022. <br></br>
+
 Most resources presented in this guide are written in Python with Jupyter notebooks, hosted on Google Colab. It is recommended to use the same programming environment for practice and learning. For other programming languages, please see [this GitHub repository](https://github.com/onshape-public/onshape-clients).
 
 <section class="section">
