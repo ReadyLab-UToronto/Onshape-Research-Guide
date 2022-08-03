@@ -1,4 +1,5 @@
 # Onshape Research Guide
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6957770.svg)](https://doi.org/10.5281/zenodo.6957770)
 <section class="section">
     <div class="container">
         <div style="text-align: center">
