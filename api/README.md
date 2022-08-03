@@ -1,4 +1,4 @@
-#Onshape REST API
+# Onshape REST API
 This guide provides a brief introduction to the Onshape REST API and its potential applications in research and teaching. To learn about the basics of using the Onshape REST API, visit the official [Onshape Developer Documentation](https://onshape-public.github.io) for more information. 
 
 ## Table of contents 
