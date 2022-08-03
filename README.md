@@ -23,7 +23,12 @@
             With its SaaS architecture, Onshape enables both unintrusive data collection and efficient data access, scalable for large-scale experiments and studies. This Onshape Research Guide aims to provide an introduction to some of the most popular sources of data in Onshape that may support academic research and teaching, along with a few sample projects and analysis methods. If you would like to open-source your research method and/or sample project that relates to Onshape and want to be featured in this guide, please submit a pull request to <a href="https://github.com/ReadyLab-UToronto/Onshape-Research-Guide">this GitHub repository</a> with details of the method/project. <br></br>
         </div>
         <div>
-            This guide was initially built in collaboration between <a href='https://www.ptc.com/en/education'>PTC Education</a> and the <a href='https://readylab.mie.utoronto.ca'>Ready Lab</a> at the University of Toronto. For all publications that are benefited by this guide, please cite this repository.<br></br>
+            This guide was initially built in collaboration between <a href='https://www.ptc.com/en/education'>PTC Education</a> and the <a href='https://readylab.mie.utoronto.ca'>Ready Lab</a> at the University of Toronto. For all publications that are benefited by this guide, please cite this repository:<br></br>
+        </div>
+        <div>
+            <blockquote> 
+            Yuanzhe Deng, Elizabeth DaMaren, Alison Olechowski, & Matthew Mueller. (2022). Onshape Research Guide (v1.0). Zenodo. https://doi.org/10.5281/zenodo.6957770
+            </blockquote>
         </div>
         <div>
             <b>NOTE:</b> this guide is only aimed to serve and be used as an introduction to the technologies for the Onshape research community. We do not assure the technical accuracy of all details included in this guide, especially as improvements and updates are released continuously to the product. If you encounter any issue with the guide, but please feel free to report the issue to <a href="https://github.com/PTC-Education/Onshape-Research-Guide">this GitHub repository</a>. <br></br>
