@@ -1,5 +1,5 @@
 # Onshape Research Guide
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6957770.svg)](https://doi.org/10.5281/zenodo.6957770)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6957769.svg)](https://doi.org/10.5281/zenodo.6957769)
 <section class="section">
     <div class="container">
         <div style="text-align: center">
@@ -27,7 +27,7 @@
         </div>
         <div>
             <blockquote> 
-            Yuanzhe Deng, Elizabeth DaMaren, Alison Olechowski & Matthew Mueller. (2022). Onshape Research Guide (v1.0). University of Toronto. https://doi.org/10.5281/zenodo.6957770
+            Yuanzhe Deng, Elizabeth DaMaren, Alison Olechowski & Matthew Mueller. (2022). Onshape Research Guide (v1.0). University of Toronto. https://doi.org/10.5281/zenodo.6957769
             </blockquote>
         </div>
         <div>
